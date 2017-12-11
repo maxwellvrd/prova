@@ -11,7 +11,7 @@ public class Exercicio07 {
         int cont = 0;
         
         do{
-            System.out.println("Digite um número: ");
+            System.out.println("Digite um nÃºmero ou 0 para parar: ");
             num = scan.nextDouble(); 
             
             if(num != 0){ 
@@ -20,9 +20,9 @@ public class Exercicio07 {
             }
         } while(num != 0);
         
-        System.out.println("A soma é: " + soma); // soma
-        System.out.println("A quantidade de números digitados foi: " + cont); // quantidade
-        System.out.println("A média é:  " + soma / cont); // média
+        System.out.println("A soma Ã©: " + soma); // soma
+        System.out.println("A quantidade de nÃºmeros digitados foi: " + cont); // quantidade
+        System.out.println("A mÃ©dia Ã©:  " + soma / cont); // mÃ©dia
         scan.close();
     }
     
