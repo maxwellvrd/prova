@@ -15,7 +15,7 @@ public class Exercicio09 {
 			fulano = fulano + 0.02;
 			ano = ano + 1;
 		}
-		System.out.println(" Será necessário " + ano + " anos para que Ciclano seja maior de Fulano");
+		System.out.println(" Será necessário " + ano + " anos para que Ciclano seja maior que Fulano");
 	/*	System.out.println("A altura de fulano daqui a 41 anos " + fulano); 
 		System.out.println("A altura de ciclano daqui a 41 anos " + ciclano); */
 	}
