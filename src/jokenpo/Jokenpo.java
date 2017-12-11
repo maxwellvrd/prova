@@ -19,7 +19,7 @@ public class Jokenpo {
 		System.out.println("0. Pedra");
 		System.out.println("1. Papel");
 		System.out.println("2. Tesoura");
-		System.out.println("Digite a opção desejada: ");
+		System.out.println("Digite a opÃ§Ã£o desejada: ");
 
 		jogador = scan.nextInt();
 		scan.close();
@@ -39,16 +39,16 @@ public class Jokenpo {
 			break;
 
 		default:
-			System.out.println("Opção invalida!");
+			System.out.println("OpÃ§Ã£o invalida!");
 		}
 
 		// computador
 
-		if (jogador <= 2) {
+		if ((jogador >=0) && (jogador <= 2)) {
 
 			Random gerador = new Random();
 			computador = gerador.nextInt(2) + 1;
-			/* int computador = (int) (Math.random()*2+1); */ // Aqui seria a função Math da biblioteca java
+			/* int computador = (int) (Math.random()*2+1); */ // Aqui seria a funÃ§Ã£o Math da biblioteca java
 
 			switch (computador) {
 
