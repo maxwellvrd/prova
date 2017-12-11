@@ -9,7 +9,7 @@ public class Exercicio09 {
 		int ano;
 		ano = 0;
 		
-		while(ciclano < fulano) {
+		while(ciclano <= fulano) {
 			
 			ciclano = ciclano + 0.03;
 			fulano = fulano + 0.02;
